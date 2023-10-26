@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Adiciono o formato de codificacao utilizado: -->
+    <meta charset="UTF-8">
+    <!-- Ajusto as proporções do conteúdo à tela -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="index.html">Home</a>
+            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="curriculo.html">Curriculo</a>
+        </nav>
+    </header>
+    <main class="apresentacao">
+        <section class="apresentacao__conteudo">
+            <h1 class="apresentacao__conteudo__titulo">Vamos falar de 
+            <strong class="apresentacao__conteudo__titulo__dstq">pinguins
+            </strong></h1>
+            <p class="apresentacao__conteudo__paragrafo">Você sabia que pinguins são originários apenas do polo sul?</p>
+            <div class="apresentacao__conteudo__paragrafo">
+                <h2>Isso é um subtítulo, menor</h2>
+                <p>Apenas outro parágrafo</p>
+            </div>
+            <div class="apresentacao__links">
+                <h3 class="apresentacao__links__subtitulo">Acesse minhas redes:</h3>
+                <a class="apresentacao__links__site" href="https://instagram.com">
+                    <img src="./assets/insta.png">
+                    Instagram
+                </a>
+                <a class="apresentacao__links__site" href="https://github.com">
+                    <img src="./assets/git.PNG">
+                    Github
+                </a>
+            </div>
+        </section>
+        <!-- Quando a imagem estiver no mesmo arquivo do HTML eu não preciso 
+                referenciar todo o caminho do arquivo, apenas seu nome e tipo.
+            O "alt" indica o nome que será visualizado na página pelo usuário -->
+        <img class="apresentacao_imagem" src="./assets/penguin.png" alt="pinguim">
+    </main>
+    <footer class="rodape">
+        <p>Uma produção Suigeneris.co</p>
+    </footer>
+</body>
+</html>
